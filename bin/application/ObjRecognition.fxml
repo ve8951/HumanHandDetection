@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml" fx:controller="application.ObjRecognitionController">
+	<center>
+		<HBox alignment="CENTER" spacing="5">
+			<ImageView fx:id="originalFrame" />
+		</HBox>
+	</center>
+	<bottom>
+		<VBox alignment="CENTER" spacing="15">
+			<Button fx:id="cameraButton" alignment="center" text="Start camera"
+				onAction="#startCamera" />
+		</VBox>
+	</bottom>
+</BorderPane>
